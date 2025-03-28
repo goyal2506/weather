@@ -1,83 +1,62 @@
-Weather App
+# Weather App
 
-Description
+A simple weather application built using React that fetches real-time weather data from an API and displays current weather conditions.
 
-The Weather App is a simple and intuitive application that allows users to check real-time weather conditions for any location. It fetches weather data from an external API and displays relevant information such as temperature, humidity, wind speed, and weather conditions.
+## Features
+- Fetches real-time weather data
+- Displays temperature, humidity, and weather conditions
+- Search for weather by city name
+- User-friendly UI
 
-Features
+## Technologies Used
+- React.js
+- OpenWeatherMap API (or any weather API of choice)
 
-Search for weather by city name
+## Installation
 
-Displays temperature, humidity, wind speed, and weather description
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/goyal2506/weather.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd weather-app
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Get an API key from [OpenWeatherMap](https://openweathermap.org/api)
+5. Create a `.env` file in the root directory and add your API key:
+   ```sh
+   REACT_APP_WEATHER_API_KEY=a88485f783ad432198943908242608
+   ```
+6. Start the development server:
+   ```sh
+   npm start
+   ```
 
-Supports multiple units (Celsius & Fahrenheit)
+## Usage
+1. Open the app in your browser at `[http://localhost:3000](http://localhost:5173/)`
+2. Enter a city name and press search to fetch weather details
 
-Responsive design for both mobile and desktop
+## Deployment
+To deploy the app, you can use:
+- GitHub Pages
 
-Technologies Used
+Run the following command to build the project:
+```sh
+npm run build
+```
+Then deploy using your preferred hosting service.
 
-HTML, CSS, JavaScript
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-React (if applicable)
-
-OpenWeatherMap API (or any other weather API)
-
-Installation
-
-Clone the repository:
-
-git clone https://github.com/your-username/weather-app.git
-
-Navigate to the project directory:
-
-cd weather-app
-
-Install dependencies:
-
-npm install
-
-Run the application:
-
-npm start
-
-Usage
-
-Open the app in your browser.
-
-Enter the name of a city in the search bar.
-
-View the weather details for the selected city.
-
-API Key Setup
-
-This app requires an API key from OpenWeatherMap. Follow these steps to set it up:
-
-Sign up at OpenWeatherMap and get an API key.
-
-Create a .env file in the root directory and add the following line:
-
-REACT_APP_WEATHER_API_KEY=your_api_key_here
-
-Restart the application.
-
-Contributing
-
-Contributions are welcome! To contribute:
-
-Fork the repository.
-
-Create a new branch: git checkout -b feature-branch
-
-Commit your changes: git commit -m 'Add some feature'
-
-Push to the branch: git push origin feature-branch
-
-Open a pull request.
-
-License
-
+## License
 This project is licensed under the MIT License.
 
-Contact
+---
 
-For any inquiries, feel free to contact me at [your-email@example.com].
+Made with ❤️ by [Kapil](https://github.com/goyal2506)
+
